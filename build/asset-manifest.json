@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7e2b829.css",
-    "main.js": "/static/js/main.59b8829d.js",
-    "static/js/787.72293b68.chunk.js": "/static/js/787.72293b68.chunk.js",
+    "main.css": "/static/css/main.8e4a57d1.css",
+    "main.js": "/static/js/main.a0a21612.js",
+    "static/js/787.36b1ffca.chunk.js": "/static/js/787.36b1ffca.chunk.js",
+    "static/media/logo.png": "/static/media/logo.96144d158654db3138c3.png",
+    "static/media/JetRacer_Car.webp": "/static/media/JetRacer_Car.de25bc02dd96109a37ff.webp",
     "index.html": "/index.html",
-    "main.c7e2b829.css.map": "/static/css/main.c7e2b829.css.map",
-    "main.59b8829d.js.map": "/static/js/main.59b8829d.js.map",
-    "787.72293b68.chunk.js.map": "/static/js/787.72293b68.chunk.js.map"
+    "main.8e4a57d1.css.map": "/static/css/main.8e4a57d1.css.map",
+    "main.a0a21612.js.map": "/static/js/main.a0a21612.js.map",
+    "787.36b1ffca.chunk.js.map": "/static/js/787.36b1ffca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7e2b829.css",
-    "static/js/main.59b8829d.js"
+    "static/css/main.8e4a57d1.css",
+    "static/js/main.a0a21612.js"
   ]
 }

@@ -1,0 +1,52 @@
+.LogIn-container{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.LogIn-vertical-organizer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    padding: 30px;
+    border-style: groove;
+    
+    
+}
+
+.logo-and-title-organizer{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.LogIn-logo{
+    width: 100px;
+
+}
+
+.LogIn-form{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.LogIn-form input{
+    width: 100%;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#LogIn-submit-btn{
+    padding: 10px 0 10px 0;
+    background: none;
+    border-style: solid;
+    border-color: green;
+    margin-top: 20px;
+    
+}

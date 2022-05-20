@@ -1,0 +1,22 @@
+.Header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.App-logo-section{
+
+}
+.btns-logo-section{
+
+}
+.App-logo-img{
+    width: 60px;   
+}
+
+.btn{
+    font-size: medium;
+    background: none;
+    border: none;
+    margin-right: 10px;
+}
