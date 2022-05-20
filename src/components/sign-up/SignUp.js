@@ -17,7 +17,7 @@ const SignUp = () => {
                     <label for="contraseña">Contraseña:</label><br/>
                     <input type="text" id="SignIn-contraseña" name="contraseña2"/><br/>
                 </form>
-                <button id='SignIn-submit-btn' ><Link to="/HomePage">Iniciar Sesión</Link></button>
+                <button id='SignIn-submit-btn' ><Link to="/HomePage">Registrarse</Link></button>
             </div>
         </div>
       )
