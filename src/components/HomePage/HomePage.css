@@ -1,0 +1,26 @@
+.HomePageContainer{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.HomePageOrganizer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.threeDataForm{
+    display: flex;
+    justify-content: space-around;
+}
+
+.threeDataForm div{
+    display: flex;
+}
+
+.threeDataForm img{
+    width: 60px;
+}

@@ -1,21 +1,23 @@
 import './SignUp.css'
 import logo from '../logo.png';
-
+import { Link } from "react-router-dom";
 const SignUp = () => {
     return (
-        <div className="LogIn-container">
-            <div className="LogIn-vertical-organizer">
-                <div className="logo-and-title-organizer">
-                    <img className='LogIn-logo' src={logo}/>
-                    <h2>Iniciar sesión</h2>
+        <div className="LogIn-container2">
+            <div className="LogIn-vertical-organizer2">
+                <div className="logo-and-title-organizer2">
+                    <img className='LogIn-logo2' src={logo}/>
+                    <h2>Registrate</h2>
                 </div>
-                <form className='LogIn-form'>
-                    <label for="usuario">Usuario</label><br/>
-                    <input type="text" id="LogIn-usuario" name="usuario"/><br/>
+                <form className='LogIn-form2'>
+                    <label for="nombre2">Nombre</label><br/>
+                    <input type="text" id="SignIn-usuario" name="nombre2"/><br/>
+                    <label for="usuario2">Usuario</label><br/>
+                    <input type="text" id="SignIn-usuario" name="usuario2"/><br/>
                     <label for="contraseña">Contraseña</label><br/>
-                    <input type="text" id="LogIn-contraseña" name="contraseña"/><br/>
-                    <input type="submit" id='LogIn-submit-btn'/>
+                    <input type="text" id="SignIn-contraseña" name="contraseña2"/><br/>
                 </form>
+                <button id='SignIn-submit-btn' ><Link to="/HomePage">Iniciar Sesión</Link></button>
             </div>
         </div>
       )

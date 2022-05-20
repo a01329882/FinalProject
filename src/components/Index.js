@@ -1,6 +1,7 @@
 import React from 'react'
 import './Index.css'
 import carImg from './JetRacer_Car.webp';
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -12,8 +13,8 @@ function Index() {
             <img src={carImg} className="IndexPage_car_img" alt="logo" />
         </div>
         <div>
-            <button className='btnIndex btnIndex1'>Log-in</button>
-            <button className='btnIndex btnIndex2'>Sign-in</button>
+            <button className='btnIndex btnIndex1'><Link to="LogIn">Log-in</Link></button>
+            <button className='btnIndex btnIndex2'><Link to="SignUp">Header</Link></button>
         </div>
     </div>
   )
