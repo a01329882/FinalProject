@@ -11,12 +11,12 @@ function LogIn() {
                 <h2>Iniciar sesión</h2>
             </div>
             <form className='LogIn-form'>
-                <label for="usuario">Usuario</label><br/>
+                <label for="usuario">Usuario:</label><br/>
                 <input type="text" id="LogIn-usuario" name="usuario"/><br/>
-                <label for="contraseña">Contraseña</label><br/>
+                <label for="contraseña">Contraseña:</label><br/>
                 <input type="text" id="LogIn-contraseña" name="contraseña"/><br/>
             </form>
-            <button id='LogIn-submit-btn' ><Link to="/HomePage">Iniciar Sesión</Link></button>
+            <button id='LogIn-submit-btn' ><Link to="/HomePage">Iniciar Sesión:</Link></button>
         </div>
     </div>
   )

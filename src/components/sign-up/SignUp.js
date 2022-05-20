@@ -10,11 +10,11 @@ const SignUp = () => {
                     <h2>Registrate</h2>
                 </div>
                 <form className='LogIn-form2'>
-                    <label for="nombre2">Nombre</label><br/>
+                    <label for="nombre2">Nombre:</label><br/>
                     <input type="text" id="SignIn-usuario" name="nombre2"/><br/>
-                    <label for="usuario2">Usuario</label><br/>
+                    <label for="usuario2">Usuario:</label><br/>
                     <input type="text" id="SignIn-usuario" name="usuario2"/><br/>
-                    <label for="contraseña">Contraseña</label><br/>
+                    <label for="contraseña">Contraseña:</label><br/>
                     <input type="text" id="SignIn-contraseña" name="contraseña2"/><br/>
                 </form>
                 <button id='SignIn-submit-btn' ><Link to="/HomePage">Iniciar Sesión</Link></button>
