@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75eb24bc.css",
-    "main.js": "/static/js/main.f3bfc2fc.js",
+    "main.js": "/static/js/main.4bb1c7c6.js",
     "static/js/787.72293b68.chunk.js": "/static/js/787.72293b68.chunk.js",
     "static/media/Steering-Wheel.png": "/static/media/Steering-Wheel.ba802367c068485c3de5.png",
     "static/media/logo.png": "/static/media/logo.96144d158654db3138c3.png",
@@ -10,11 +10,11 @@
     "static/media/Distance.png": "/static/media/Distance.66687f8ccb3bc7ff9194.png",
     "index.html": "/index.html",
     "main.75eb24bc.css.map": "/static/css/main.75eb24bc.css.map",
-    "main.f3bfc2fc.js.map": "/static/js/main.f3bfc2fc.js.map",
+    "main.4bb1c7c6.js.map": "/static/js/main.4bb1c7c6.js.map",
     "787.72293b68.chunk.js.map": "/static/js/787.72293b68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75eb24bc.css",
-    "static/js/main.f3bfc2fc.js"
+    "static/js/main.4bb1c7c6.js"
   ]
 }
