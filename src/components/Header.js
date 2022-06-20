@@ -10,7 +10,7 @@ const header = () => {
         <div className='btns-logo-section'>
             <button className='btn'><Link to="LogIn">Log-in</Link></button>
             <button className='btn'><Link to="SignUp">Sign-up</Link></button>
-            <button className='btn'><Link to="HomePage">HomePage</Link></button>
+            <button onClick={() => window.location.reload()} className='btn'><Link to="HomePage">HomePage</Link></button>
             <button className='btn'><Link to="/">LandingPage</Link></button>
         </div>
     </header>

@@ -1,8 +1,9 @@
 import Distance from './Distance.png';
 import Steering from './Steering-Wheel.png';
 import Throttle from './Throttle.png';
+import { Link } from "react-router-dom";
 //import LinkList from '../LinkList/LinkList';
-import CreateLink from '../CreateLink/CreateLink';
+
 //import { Link } from "react-router-dom";
 import './HomePage.css';
 
@@ -30,8 +31,7 @@ function HomePage({ link }) {
             </div>
         </div>
         <hr/>
-        <h1>Set Car Data</h1>
-        <CreateLink />
+        <button className='btn'><Link to="../AddData">AddData</Link></button>
       </div>
   )
 }
