@@ -1,10 +1,12 @@
 import Distance from './Distance.png';
 import Steering from './Steering-Wheel.png';
 import Throttle from './Throttle.png';
+//import LinkList from '../LinkList/LinkList';
+import CreateLink from '../CreateLink/CreateLink';
 //import { Link } from "react-router-dom";
 import './HomePage.css';
 
-function HomePage() {
+function HomePage({ link }) {
   return (
       <div className='HomePageContainer'>
         <div className='HomePageOrganizer'>
@@ -13,18 +15,23 @@ function HomePage() {
             <div className="threeDataForm">
                 <div>
                     <img src={Steering} className="Steering" alt="Steering-wheel" />
-                    <h4>% Direccion</h4>
+                    <h4>% Direccion: {link.rotation}</h4>
+                    
                 </div>
                 <div>
                     <img src={Throttle} className="Throttle" alt="Steering-wheel" />
-                    <h4>% Velocidad</h4>
+                    <h4>% Velocidad: {link.speed}</h4>
                 </div>
                 <div>
                     <img src={Distance} className="Throttle" alt="Distance" />
-                    <h4>cm Distancia de la referencia</h4>
+                    <h4>cm Distancia de la referencia: {link.distance}</h4>
+
                 </div>
             </div>
         </div>
+        <hr/>
+        <h1>Set Car Data</h1>
+        <CreateLink />
       </div>
   )
 }
