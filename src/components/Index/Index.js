@@ -14,7 +14,7 @@ function Index() {
         </div>
         <div>
             <button className='btnIndex btnIndex1'><Link to="LogIn">Log-in</Link></button>
-            <button className='btnIndex btnIndex2'><Link to="SignUp">Sign-up</Link></button>
+            <button className='btnIndex btnIndex2'><Link to="LogIn">Sign-up</Link></button>
         </div>
     </div>
   )

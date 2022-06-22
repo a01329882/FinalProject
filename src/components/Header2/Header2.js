@@ -1,28 +1,28 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { AUTH_TOKEN } from '../constants';
+import { AUTH_TOKEN } from '../../constants';
+import './Header2.css'
 
-const Header = () => {
+const Header2 = () => {
   const navigate = useNavigate();
   const authToken = localStorage.getItem(AUTH_TOKEN);
-
+  console.log("this is " + authToken);
   return (
-   <div style={{ background: '#90EE90'}} className="flex pa1 justify-between nowrap ">
+    <div className='header2Main'>
+    <div className="header2 flex pa1 justify-between nowrap orange">
       <div className="flex flex-fixed black">
         <Link to="/" className="no-underline black">
-          <div className="fw7 mr1">JetRacer</div>
+          <div className="fw7 mr1">Jet Racer</div>
         </Link>           
-        <Link to="/" className="ml1 no-underline black">
-
+        <Link to="/SignUp" className="ml1 no-underline black">
+          SignUp
         </Link>
         <div className="ml1">|</div>
-   
         <Link
           to="/search"
           className="ml1 no-underline black"
         >
-
-        
+          search
         </Link>
         {authToken && (
           <div className="flex">
@@ -36,23 +36,6 @@ const Header = () => {
           </div>
         )}
       </div>
-   
-     <div className="ml1">|</div>
-
-      <div>
-
-
-
-        <Link
-          to="/recsys"
-
-          className="ml1 no-underline black"
-        >
-
-        </Link>
-
-      </div>
-
       <div className="flex flex-fixed">
         {authToken ? (
           <div
@@ -74,8 +57,8 @@ const Header = () => {
         )}
       </div>
     </div>
- 
+    </div>
   );
 };
 
-export default Header;
+export default Header2;

@@ -1,43 +1,37 @@
 import React, { useState } from 'react';
-
 import { useMutation, gql } from '@apollo/client';
 import { useNavigate } from 'react-router-dom';
 
-
-
 const CREATE_LINK_MUTATION = gql`
-  mutation PostMutation(
-    $distance: String!
-    $rotation: String!
-    $speed: String!
+  mutation PostCreateLink(
+    $description: String!
+    $url: String!
   ) {
-    createLink (distance: $distance, rotation: $rotation, speed: $speed){
-      distance
-      rotation
-      speed
-    }
+   createLink(description:$description, url:$url) {
+     id
+     url
+     description
+  }
   }
 `;
 
 const CreateLink = () => {
+
   const navigate = useNavigate();
+
   const [formState, setFormState] = useState({
-    distance: '',
-    rotation: '',
-    speed:'',
+    description: '',
+    url: ''
   });
 
   const [createLink] = useMutation(CREATE_LINK_MUTATION, {
     variables: {
-      distance: formState.distance,
-      rotation: formState.rotation,
-      speed: formState.speed
-      
+      description: formState.description,
+      url: formState.url
     },
     onCompleted: () => navigate('/homepage')
 
-  }
-  );
+  });
 
   return (
     <div>
@@ -45,48 +39,36 @@ const CreateLink = () => {
         onSubmit={(e) => {
           e.preventDefault();
           createLink();
+
         }}
       >
         <div className="flex flex-column mt3">
           <input
             className="mb2"
-            value={formState.distance}
+            value={formState.description}
             onChange={(e) =>
               setFormState({
                 ...formState,
-                distance: e.target.value
+                description: e.target.value
               })
             }
             type="text"
-            placeholder="distance"
+            placeholder="A description for the link"
           />
           <input
             className="mb2"
-            value={formState.rotation}
+            value={formState.url}
             onChange={(e) =>
               setFormState({
                 ...formState,
-                rotation: e.target.value
+                url: e.target.value
               })
             }
             type="text"
-            placeholder="rotation"
-          />
-          
-          <input
-            className="mb2"
-            value={formState.speed}
-            onChange={(e) =>
-              setFormState({
-                ...formState,
-                speed: e.target.value
-              })
-            }
-            type="text"
-            placeholder="speed"
+            placeholder="The URL for the link"
           />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submitt">Submit</button>
       </form>
     </div>
   );

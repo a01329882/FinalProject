@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.75eb24bc.css",
-    "main.js": "/static/js/main.100f2cb9.js",
-    "static/js/787.72293b68.chunk.js": "/static/js/787.72293b68.chunk.js",
+    "main.css": "/static/css/main.f6159a9f.css",
+    "main.js": "/static/js/main.a4ed12e4.js",
     "static/media/Steering-Wheel.png": "/static/media/Steering-Wheel.ba802367c068485c3de5.png",
     "static/media/logo.png": "/static/media/logo.96144d158654db3138c3.png",
     "static/media/Throttle.png": "/static/media/Throttle.8e74d85ec3fb2a0a1b7a.png",
     "static/media/JetRacer_Car.webp": "/static/media/JetRacer_Car.de25bc02dd96109a37ff.webp",
     "static/media/Distance.png": "/static/media/Distance.66687f8ccb3bc7ff9194.png",
     "index.html": "/index.html",
-    "main.75eb24bc.css.map": "/static/css/main.75eb24bc.css.map",
-    "main.100f2cb9.js.map": "/static/js/main.100f2cb9.js.map",
-    "787.72293b68.chunk.js.map": "/static/js/787.72293b68.chunk.js.map"
+    "main.f6159a9f.css.map": "/static/css/main.f6159a9f.css.map",
+    "main.a4ed12e4.js.map": "/static/js/main.a4ed12e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.75eb24bc.css",
-    "static/js/main.100f2cb9.js"
+    "static/css/main.f6159a9f.css",
+    "static/js/main.a4ed12e4.js"
   ]
 }

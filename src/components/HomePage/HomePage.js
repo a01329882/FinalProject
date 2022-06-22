@@ -31,7 +31,7 @@ function HomePage({ link }) {
             </div>
         </div>
         <hr/>
-        <button className='btn'><Link to="../AddData">AddData</Link></button>
+        <button className='btn'><Link to="../create">AddData</Link></button>
       </div>
   )
 }

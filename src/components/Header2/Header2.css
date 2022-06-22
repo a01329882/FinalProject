@@ -1,0 +1,9 @@
+.header2Main{
+    display: grid;
+    justify-items: center;
+}
+
+.header2{
+    width: 80%;
+    margin-top: 10px;
+}
